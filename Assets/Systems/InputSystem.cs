@@ -46,7 +46,7 @@ public class InputSystem : MonoBehaviour
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             GameFlow.Instance.StartGame();
         }
